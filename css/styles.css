@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.bodycontent {
+  flex: 1
+}
+
+#landing {
+  background: url("/images/space.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-seperator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:100%;
+}
